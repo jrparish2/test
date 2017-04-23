@@ -10,5 +10,5 @@ header = {"content-type": "application/json"}
 #Performs a POST on the specified url.
 response= requests.post(url,data=json.dumps(payload), headers=header, verify=False)
 
-# print the json that is returned
+# print the json that is returned from ticket
 print(response.text)
